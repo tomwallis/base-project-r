@@ -49,4 +49,6 @@ docker image rm $(docker image ls -a -q)   # Remove all images from this machine
 
 [Conducting reproducible research with Docker](http://www.derekmpowell.com/posts/2018/02/docker-tutorial-1/). Great three-part tutorial by [Derek Powell](http://www.derekmpowell.com).
 
+Note: the "Create Automated Build" step is now done via a dropdown in the menu on Docker Hub, and I've removed the setting of the username from the run command because that interfered with file permissions, stopping writing to the mounted container on OSX.
+
 [R Docker tutorial](https://ropenscilabs.github.io/r-docker-tutorial/)
